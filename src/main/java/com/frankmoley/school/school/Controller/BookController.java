@@ -1,15 +1,13 @@
 package com.frankmoley.school.school.Controller;
 
 import com.frankmoley.school.school.Data.Entity.Book;
-import com.frankmoley.school.school.Data.Entity.User;
-import com.frankmoley.school.school.Data.Repository.BookRepository;
-import com.frankmoley.school.school.Data.Repository.UserRepository;
+
 import com.frankmoley.school.school.Service.BookService;
 import com.frankmoley.school.school.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
